@@ -7,7 +7,7 @@ To predict customer churn using machine learning and identify key factors influe
 Telco Customer Churn Dataset (Kaggle)
 
 ## Structure
-- data
+- data/
   - raw
   - processed
 - notebooks/
@@ -26,6 +26,9 @@ Telco Customer Churn Dataset (Kaggle)
 ## Key Findings
 - Tenure, monthly charges, and total charges are main churn drivers
 - Logistic Regression performed best along with a threshold of 0.4.
+
+## Class Imbalance
+The Telco Customer Churn dataset is slightly imbalanced because the number of customers who did not churn is higher than the number of customers who churned. For this reason, greater importance was given to Recall, F1-score, and ROC-AUC during model evaluation.
 
 ## Tools
 Python, Scikit-learn, SHAP
