@@ -25,7 +25,12 @@ Telco Customer Churn Dataset (Kaggle)
 
 ## Key Findings
 - Tenure, monthly charges, and total charges are main churn drivers
-- Logistic Regression performed best along with a threshold of 0.4.
+- Logistic Regression performed best along with a threshold of 0.4 because it gave:
+  - highest ROC-AUC
+  - best Recall improvement
+  - strong F1-score
+  - better interpretability
+  - strongest business usefulness
 
 ## Class Imbalance
 The Telco Customer Churn dataset is slightly imbalanced because the number of customers who did not churn is higher than the number of customers who churned. For this reason, greater importance was given to Recall, F1-score, and ROC-AUC during model evaluation.
