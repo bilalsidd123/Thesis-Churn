@@ -7,9 +7,11 @@ To predict customer churn using machine learning and identify key factors influe
 Telco Customer Churn Dataset (Kaggle)
 
 ## Structure
-- data->raw->processed
+- data
+  - raw
+  - processed
 - notebooks/
-- - 01_eda
+  - 01_eda
   - 02_preprocessing
   - 03_model_comparison
   - 04_interpretation_SHAP
