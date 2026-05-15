@@ -11,10 +11,10 @@ Telco Customer Churn Dataset (Kaggle)
   - raw
   - processed
 - notebooks/
-  - 01_eda
-  - 02_preprocessing
-  - 03_model_comparison
-  - 04_interpretation_SHAP
+  - 01_eda (data file in raw folder was used)
+  - 02_preprocessing (data file in processed folder was used)
+  - 03_model_comparison (data file in processed folder was used)
+  - 04_interpretation_SHAP (data file in processed folder was used)
 - outputs/
 
 ## Models Used
